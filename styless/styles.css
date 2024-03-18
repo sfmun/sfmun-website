@@ -1,0 +1,280 @@
+:root {
+    --c1: #022436;
+    --c2: #012F46;
+    --c3: #842C2A;
+    --c4: #C23D2A;
+    --c5: #EA8A44;
+    --c6: #B19490;
+}
+
+body::-webkit-scrollbar {
+    width: 1vw;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: url('../imagess/pen.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    overflow: scroll;
+    overflow: overlay;
+    transition-duration: 0.4s;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    background-image: url('../imagess/bg.jpeg')!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+    width: 100vw!important;
+    overflow: scroll;
+    overflow: overlay;
+    overflow-x: hidden;
+    cursor: cell;
+}
+
+@font-face {
+    font-family: Royal;
+    src: url(./BLKCHCRY.TTF);
+}
+
+.MUNtitle {
+    top: 10px;
+    text-align: center;
+    /* padding: 0.5% !important; */
+    font-family: Royal;
+}
+
+.MUNmain {
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 65px !important;
+    color: var(--c1);
+    font-family: Royal;
+}
+
+.MUNbot {
+    text-align: center;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    font-family: Royal;
+    color: var(--c1);
+}
+
+.desc {
+    padding-top: 0% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.eventdesc {
+    padding: 3.5% !important;
+    background-color: var(--c5);
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--c1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.aboutMUN {
+    text-align: center;
+    padding-top: 0% !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Galleria {
+    padding: 2.5% !important;
+    text-align: center;
+}
+
+
+/* Parallax Image */
+
+.parallax {
+    background-image: url('../imagess/parallax.jpg');
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parallax-text {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    color: #def2f1;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+
+.ChiefGuests {
+    text-align: center;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.column {
+    padding: 5%;
+    height: 100%;
+    width: 35vw;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: var(--c5);
+    color: #def2f1;
+    border-radius: 8px;
+    padding: 6%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: 0.5px solid #012F46;
+}
+
+.image {
+    height: 75%;
+    border-radius: 8px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    min-height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-content {
+    padding-top: 5%;
+    text-align: center;
+    color: #def2f1;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 10px var(--c1) solid;
+    border-top: 10px var(--c1) solid;
+}
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--c2);
+    font-weight: bold;
+}
+
+.column1 {
+    padding: 5%;
+    height: 100%;
+    width: 30vw;
+}
+
+
+/*---------------------------------------
+     FOOTER
+  -----------------------------------------*/
+
+  footer {
+    background: #252020;
+    padding: 120px 0;
+}
+
+footer .section-title {
+    padding-bottom: 10px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer a,
+footer p {
+    color: #909090;
+}
+
+footer strong {
+    color: #d9d9d9;
+}
+
+footer address p {
+    margin-bottom: 0;
+}
+
+footer .social-icon {
+    margin-top: 25px;
+}
+
+.footer-info {
+    margin-right: 2em;
+}
+
+.footer-info h2 {
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer_menu h2 {
+    margin-top: 2em;
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px 5px 0;
+}
+
+.newsletter-form .form-control {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.newsletter-form input[type="submit"] {
+    background: transparent;
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    outline: none;
+    width: 50%;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background: #012d6c;
+    border-color: transparent;
+}
+
+.newsletter-form .form-group span {
+    color: #909090;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}
